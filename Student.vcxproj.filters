@@ -21,18 +21,12 @@
     <ClInclude Include="include\Student.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="include\Counter.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="src\Student.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Counter.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

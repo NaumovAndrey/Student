@@ -1,5 +1,5 @@
-CMakeFiles/program.dir/src/main.cpp.obj: E:\dev\Student\src\main.cpp \
- E:/dev/Student/include/main.h E:/dev/Student/include/Student.h \
+CMakeFiles/program.dir/src/Student.cpp.obj: \
+ E:\dev\Student\src\Student.cpp E:/dev/Student/include/Student.h \
  C:/x86_64-13.2.0-release-posix-seh-msvcrt-rt_v11-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/string \
  C:/x86_64-13.2.0-release-posix-seh-msvcrt-rt_v11-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/requires_hosted.h \
  C:/x86_64-13.2.0-release-posix-seh-msvcrt-rt_v11-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -130,7 +130,4 @@ CMakeFiles/program.dir/src/main.cpp.obj: E:\dev\Student\src\main.cpp \
  C:/x86_64-13.2.0-release-posix-seh-msvcrt-rt_v11-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
  C:/x86_64-13.2.0-release-posix-seh-msvcrt-rt_v11-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/locale_facets.tcc \
  C:/x86_64-13.2.0-release-posix-seh-msvcrt-rt_v11-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/basic_ios.tcc \
- C:/x86_64-13.2.0-release-posix-seh-msvcrt-rt_v11-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/ostream.tcc \
- C:/x86_64-13.2.0-release-posix-seh-msvcrt-rt_v11-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/iostream \
- C:/x86_64-13.2.0-release-posix-seh-msvcrt-rt_v11-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/istream \
- C:/x86_64-13.2.0-release-posix-seh-msvcrt-rt_v11-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/istream.tcc
+ C:/x86_64-13.2.0-release-posix-seh-msvcrt-rt_v11-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/ostream.tcc

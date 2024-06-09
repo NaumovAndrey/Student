@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/program.dir/src/Student.cpp.obj"
+  "CMakeFiles/program.dir/src/Student.cpp.obj.d"
   "CMakeFiles/program.dir/src/main.cpp.obj"
   "CMakeFiles/program.dir/src/main.cpp.obj.d"
   "libprogram.dll.a"

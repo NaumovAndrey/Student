@@ -1,21 +1,27 @@
 #pragma once
 
-#include "../include/Counter.h"
-#include "../include/main.h"
 #include "string"
-#include <iostream>
+#include <iosfwd>
+#include <ostream>
 
 class Student
 {
 private:
-	string name;
-	string surname;
-	Counter counter;
-	string average;
-public:
-	string getName();
-	string getSurname();
-	Counter getCount();
-	string getAverage();
-};
+	int id;
+	std::string name;
+	std::string surname;
+	double average;
+	static int currentId;
 
+public:
+	Student(std::string name, std::string surname);
+	~Student();
+
+	std::string getName() const;
+	std::string getSurname() const;
+	int getId() const;
+	double getAverage() const;
+	void setAverage(double numAverage);
+	
+	friend std::ostream& operator<<(std::ostream& os, const Student& student);
+};

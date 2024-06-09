@@ -128,6 +128,30 @@ program/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/build
 .PHONY : program/fast
 
+src/Student.obj: src/Student.cpp.obj
+.PHONY : src/Student.obj
+
+# target to build an object file
+src/Student.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Student.cpp.obj
+.PHONY : src/Student.cpp.obj
+
+src/Student.i: src/Student.cpp.i
+.PHONY : src/Student.i
+
+# target to preprocess a source file
+src/Student.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Student.cpp.i
+.PHONY : src/Student.cpp.i
+
+src/Student.s: src/Student.cpp.s
+.PHONY : src/Student.s
+
+# target to generate assembly for a file
+src/Student.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Student.cpp.s
+.PHONY : src/Student.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... program
+	@echo ... src/Student.obj
+	@echo ... src/Student.i
+	@echo ... src/Student.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
